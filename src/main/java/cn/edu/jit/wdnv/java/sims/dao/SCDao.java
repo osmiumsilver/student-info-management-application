@@ -1,6 +1,6 @@
 package cn.edu.jit.osmiumsilver.java.sims.dao;
 
-import cn.edu.jit.osmiumsilver.java.sims.model.SC;
+import cn.edu.jit.osmiumsilver.java.sims.beans.SC;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

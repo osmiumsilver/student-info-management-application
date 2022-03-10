@@ -1,13 +1,14 @@
 package cn.edu.jit.osmiumsilver.java.sims.mapper;
 
-import cn.edu.jit.osmiumsilver.java.sims.model.Class;
+import cn.edu.jit.osmiumsilver.java.sims.beans.Class;
+import java.math.BigDecimal;
 import java.util.List;
 
 public interface ClassMapper {
     /**
      * @mbg.generated generated automatically, do not modify!
      */
-    int deleteByPrimaryKey(String clno);
+    int deleteByPrimaryKey(BigDecimal clno);
 
     /**
      * @mbg.generated generated automatically, do not modify!
@@ -17,7 +18,7 @@ public interface ClassMapper {
     /**
      * @mbg.generated generated automatically, do not modify!
      */
-    Class selectByPrimaryKey(String clno);
+    Class selectByPrimaryKey(BigDecimal clno);
 
     /**
      * @mbg.generated generated automatically, do not modify!

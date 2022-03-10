@@ -1,7 +1,7 @@
 package cn.edu.jit.osmiumsilver.java.sims.servlet;
 
 import cn.edu.jit.osmiumsilver.java.sims.dao.UserDao;
-import cn.edu.jit.osmiumsilver.java.sims.model.User;
+import cn.edu.jit.osmiumsilver.java.sims.beans.User;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

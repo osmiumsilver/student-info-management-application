@@ -1,31 +1,31 @@
 package cn.edu.jit.osmiumsilver.java.sims.mapper;
 
-import cn.edu.jit.osmiumsilver.java.sims.beans.Course;
+import cn.edu.jit.osmiumsilver.java.sims.beans.Department;
 import java.util.List;
 
-public interface CourseMapper {
+public interface DepartmentMapper {
     /**
      * @mbg.generated generated automatically, do not modify!
      */
-    int deleteByPrimaryKey(String cno);
+    int deleteByPrimaryKey(String dno);
 
     /**
      * @mbg.generated generated automatically, do not modify!
      */
-    int insert(Course row);
+    int insert(Department row);
 
     /**
      * @mbg.generated generated automatically, do not modify!
      */
-    Course selectByPrimaryKey(String cno);
+    Department selectByPrimaryKey(String dno);
 
     /**
      * @mbg.generated generated automatically, do not modify!
      */
-    List<Course> selectAll();
+    List<Department> selectAll();
 
     /**
      * @mbg.generated generated automatically, do not modify!
      */
-    int updateByPrimaryKey(Course row);
+    int updateByPrimaryKey(Department row);
 }
