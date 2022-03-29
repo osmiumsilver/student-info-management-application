@@ -1,4 +1,4 @@
-<%@page import="cn.edu.jit.osmiumsilver.java.sims.beans.User"%>
+<%@page import="com.osmiumsilver.java.sima.entity.User"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE HTML>
